@@ -11,11 +11,13 @@ public class MainApp {
         String option = scanner.nextLine();
 
         if(option.equals(1)){
+            System.out.println("Enter text to encrypt:");
 
         } else if (option.equals(2)) {
+            System.out.println("Enter text to decrypt:");
 
         } else if (option.equals(3)) {
-            
+            System.out.println("Exiting...");
         }
     }
 }
