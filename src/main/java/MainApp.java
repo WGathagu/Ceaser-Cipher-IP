@@ -12,6 +12,15 @@ public class MainApp {
 
         if(option.equals(1)){
             System.out.println("Enter text to encrypt:");
+            String input = scanner.nextLine();
+            System.out.println("___________________________");
+
+            System.out.println("Enter a key for the encryption:");
+            int key = scanner.nextInt();
+            System.out.println("___________________________");
+            Encrypt cipher = new Encrypt(input,key);
+            String encrypted = Encrypt.encrypt(cipher);
+
 
         } else if (option.equals(2)) {
             System.out.println("Enter text to decrypt:");
