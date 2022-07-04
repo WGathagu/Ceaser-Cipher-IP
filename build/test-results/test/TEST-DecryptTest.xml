@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="DecryptTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-07-04T12:55:10" hostname="LTTECH906" time="0.019">
+<testsuite name="DecryptTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-07-04T12:58:52" hostname="LTTECH906" time="0.027">
   <properties/>
-  <testcase name="runDecrypt_ifKeyIsInt()" classname="DecryptTest" time="0.019"/>
+  <testcase name="runDecrypt_ifKeyIsInt()" classname="DecryptTest" time="0.027"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
